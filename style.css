@@ -1,0 +1,103 @@
+body{
+    background-color: darkorchid;
+}
+
+.title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.title h1{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+font-size: 40px;
+color: white;
+}
+.allclear-btn{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.allclear-btn button{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    font-weight: bold;
+}
+
+.input-group{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.input-group input{
+width: 85%;
+padding: 5px;
+border-radius: 5px;
+
+}
+.input-group button{
+    background-color: darkslateblue;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+}
+ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+li{width: 90%;
+    list-style: none;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    background-color: darkslateblue;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+li button{
+    background-color: cadetblue;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+.allclear{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.allclear-btn{
+    width: 90%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.allclear .allclear-btn button{
+    transition: .5s;
+    cursor: pointer;
+}
+
+.allclear .allclear-btn button:hover{
+    background-color: darkslategray;
+}
+
+.input-group button{
+    transition: .5s;
+    background-color: cadetblue;
+    cursor: pointer;
+}
+.input-group button:hover{
+    background-color: darkslategray;
+}
